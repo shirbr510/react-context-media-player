@@ -1,0 +1,37 @@
+.media-player {
+    display: flex;
+    flex-flow: column;
+}
+
+.media-player-seeker{
+
+}
+
+.media-player-seeker-thumb{
+}
+
+.media-player-controls{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+}
+
+.media-player-controls-section{
+    display: flex;
+    flex: 1;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.flex-justify-start {
+    justify-content: flex-start;
+}
+
+.flex-justify-center {
+    justify-content: center;
+
+}
+
+.flex-justify-end {
+    justify-content: flex-end;
+}
